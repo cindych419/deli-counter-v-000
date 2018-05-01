@@ -11,5 +11,5 @@ def line(deli)
 end
 def take_a_number(deli, name)
   count = deli.count
-    puts "Welcome, #{name}. You are number #{count} in line."
+    puts "Welcome, #{name}. You are number #{count+1} in line."
 end
