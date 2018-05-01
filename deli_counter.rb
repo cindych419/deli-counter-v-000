@@ -6,3 +6,4 @@ def line(deli)
 deli.each.with_index do |person,i|
   current_line<<"#{i}. #{person}"
 end 
+end
