@@ -13,4 +13,3 @@ def take_a_number(deli, name)
   newcount = deli.count+1
     puts "Welcome, #{name}. You are number #{newcount} in line."
 end
-end 
