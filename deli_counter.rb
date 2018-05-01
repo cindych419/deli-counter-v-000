@@ -9,3 +9,6 @@ def line(deli)
     puts current_line
   end
 end
+def take_a_number(deli, name)
+  deli.each_with_index do |person,i|
+    puts "Welcome, name. You are number #{i+2} in line."
