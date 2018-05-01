@@ -10,7 +10,6 @@ def line(deli)
   end
 end
 def take_a_number(deli, name)
-  count = deli.count 
+  count = deli.count
     puts "Welcome, #{name}. You are number #{count} in line."
-  end
 end
