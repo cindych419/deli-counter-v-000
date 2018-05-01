@@ -11,5 +11,4 @@ def line(deli)
 end
 def take_a_number(deli, name)
     puts "Welcome, #{name}. You are number #{deli.size+1} in line."
-  end
 end
