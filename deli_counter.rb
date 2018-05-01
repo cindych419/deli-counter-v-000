@@ -9,7 +9,7 @@ def line(deli)
     puts current_line
   end
 end
-def take_a_number(deli, name,count)
+def take_a_number(deli, name)
   count = deli.count+1
     puts "Welcome, #{name}. You are number #{count} in line."
 end
