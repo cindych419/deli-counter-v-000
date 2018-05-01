@@ -10,7 +10,7 @@ def line(deli)
   end
 end
 def take_a_number(deli, name)
-  deli.each_with_index do |person,i|
-    puts "Welcome, #{name}. You are number #{deli.size+1} in line."
+  count = deli.count 
+    puts "Welcome, #{name}. You are number #{count} in line."
   end
 end
